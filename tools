@@ -41,7 +41,7 @@ exit
 }
 
 lagi=1
-while [ $lagi -lt 7 ];
+while [ $lagi -lt 6 ];
 do
 echo ""
 echo -e $b "1.  Nmap${enda}";
@@ -53,8 +53,6 @@ echo -e "============================" | lolcat
 echo -e $c "4   Lazymux${endc}";
 echo -e "============================" | lolcat
 echo -e $r"5.  Tools-X${endc}";
-echo -e "============================" | lolcat
-echo -e $r "6. DarkPremium${endc}";
 echo -e "============================" | lolcat
 echo -e $r "7. Exit${endc}";
 echo ""
@@ -114,17 +112,6 @@ echo -e "${y} cd Tool-X"
 echo -e "${y} sh install.aex"
 cd /data/data/com.termux/files/home/Tool-X
 bash /data/data/com.termux/files/home/Tool-X/sh install.aex
-
-;;
-
-#DarkPremium
-
-git clone https://github.com/TheMagizz/DarkPremium
-echo -e "${y}  DarkPremium..."
-echo -e "${y}  install -r requirements.txt"
-echo -e "${y}  DarkFB.py"
-cd /data/data/com.termux/files/home/DarkPremium
-bash /data/data/com.termux/files/home/DarkPremium/DarkFB.py
 
 ;;
 
