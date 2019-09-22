@@ -41,7 +41,7 @@ exit
 }
 
 lagi=1
-while [ $lagi -lt 6 ];
+while [ $lagi -lt 7 ];
 do
 echo ""
 echo -e $b "1.  Nmap${enda}";
