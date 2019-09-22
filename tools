@@ -54,7 +54,7 @@ echo -e $c "4   Lazymux${endc}";
 echo -e "============================" | lolcat
 echo -e $r"5.  Tools-X${endc}";
 echo -e "============================" | lolcat
-echo -e $r "7. Exit${endc}";
+echo -e $r "6. Exit${endc}";
 echo ""
 echo -e "╭─0day" |lolcat
 read -p "╰─#" pil;
@@ -114,7 +114,6 @@ cd /data/data/com.termux/files/home/Tool-X
 bash /data/data/com.termux/files/home/Tool-X/sh install.aex
 
 ;;
-
 
 6) echo "created by : ayay33" | lolcat
 exit
